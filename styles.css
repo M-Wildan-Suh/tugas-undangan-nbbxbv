@@ -1,0 +1,217 @@
+ @import url('https://fonts.googleapis.com/css2?family=Inria+Serif:wght@300&display=swap');
+
+* {
+  box-sizing: border-box;
+}
+html {
+  scroll-behavior: smooth;
+}
+body {
+  margin: 0 auto;
+  font-family: 'inter', sans-serif;
+  overflow-x: hidden;
+  color: black;
+  background-color: rgb(248, 248, 248);
+  min-height: 150px;
+}
+a {
+  color: inherit;
+  text-decoration: none;
+  padding-left: 20px;
+}
+p {
+  line-height: 2;
+  font-family: 'inter', sans-serif;
+  font-weight: 300;
+}
+h1,
+h2,
+h3 {
+  font-family: 'Inria Serif', sans-serif;
+  font-weight: 500;
+}
+/* NAVBAR */
+.navbar {
+  width: 100vw;
+  height: 70px;
+  background-color: rgba(255, 255, 255, 0.432);
+  position: fixed;
+  top: 0px;
+  left: 0px;
+}
+.wrapp {
+  height: inherit;
+  display: flex;
+  flex-direction: row;
+  position: absolute;
+  justify-content: space-between;
+  align-items: center;
+  top: 0px;
+  right: 0px;
+  margin: 0 auto;
+}
+.brand {
+  font-size: 32px;
+  user-select: none;
+  text-align: inherit;
+  padding-left: 150px;
+  position: absolute;
+  top: 2px;
+}
+.navme {
+  font-size: 18px;
+  padding-right: 150px;
+}
+/* Hero */
+.container {
+  width: 100vw;
+  height: 670px;
+  display: flex;
+  flex-direction: column;
+  background-image: url(https://images.pexels.com/photos/1268877/pexels-photo-1268877.jpeg?cs=srgb&dl=pexels-asad-photo-maldives-1268877.jpg&fm=jpg);
+  background-size: cover;
+}
+.hero p,
+.hero h1 {
+  text-align: center;
+  padding-top: 40px;
+}
+.hero p {
+  font-size: 32px;
+}
+.hero h1 {
+  font-size: 96px;
+}
+
+section {
+  width: 100vw;
+  margin-top: 300px;
+  margin-bottom: 70px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.secti {
+  font-size: 64px;
+}
+.secwra {
+  width: inherit;
+  max-width: 1080px;
+  display: flex;
+  flex-direction: row;
+  margin: 0 auto;
+}
+.secco {
+  flex: 1;
+  margin-top: 110px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.secco h2 {
+  font-size: 32px;
+  margin: 0;
+}
+.secco p {
+  margin: 0;
+  font-size: 18px;
+}
+.secim {
+  flex: 1;
+  height: 350px;
+  background-image: url(https://parentalk.id/wp-content/uploads/2021/12/shutterstock_1006211680-1.jpg);
+  background-size: cover;
+  border-radius: 20px;
+}
+#resepsi > .secwra > .secim {
+  background-image: url(https://i2.wp.com/akadmu.com/wp-content/uploads/2018/12/Dekorasi-Pernikahan-di-Kulon-Progo-Bagus-dan-Rekomended.jpg?fit=1080%2C720&ssl=1);
+}
+.formwra {
+  width: inherit;
+  height: 500px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  background-image: url(https://images.pexels.com/photos/1268877/pexels-photo-1268877.jpeg?cs=srgb&dl=pexels-asad-photo-maldives-1268877.jpg&fm=jpg);
+  background-size: cover;
+}
+.formbukta {
+  width: 700px;
+  height: 450px;
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  box-shadow: 5px 6px 8px rgba(0, 0n, 0, 384);
+  padding: 50px 70px;
+  justify-content: center;
+}
+.formgru {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-bottom: 25px;
+}
+.formgru label {
+  font-size: 18px;
+  font-family: 'inter', sans-serif;
+  font-weight: 300;
+  flex: 1;
+  align-items: center;
+}
+.formgru input {
+  /* flex: 1; */
+  width: 350px;
+  height: 45px;
+  padding: 0 8px;
+  font-size: inherit;
+  font-weight: 300;
+  font-family: inherit;
+}
+.formbukta button {
+  height: 45px;
+  background-color: black;
+  outline: none;
+  border: none;
+  color: white;
+  font-size: inherit;
+  font-family: inherit;
+}
+.butma {
+  height: 45px;
+  background-color: white;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  color: black;
+  width: 300px;
+  margin-bottom: 20px;
+  border: none;
+  outline: none;
+}
+.butma span {
+  margin-right: 8px;
+}
+.butma:hover {
+  box-shadow: 3px 4px 7px black;
+}
+.galli {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 60px;
+  padding: 30px;
+}
+.galli img {
+  width: 500px;
+  object-fit: cover;
+  margin-bottom: 20px;
+}
+.footer {
+  width: 100vw;
+  height: 70px;
+  text-align: center;
+  margin-bottom: 0px;
+  background-color: black;
+  color: white; 
+}
